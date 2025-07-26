@@ -1,8 +1,8 @@
 import React from 'react';
-import { AppProvider } from '@/contexts/AppContext';
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { AppProvider } from '@/AppContext';
+import Navigation from '@/Navigation';
+import Footer from '@/Footer';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/card';
 import { Brain, Target, Users, Award } from 'lucide-react';
 
 const About: React.FC = () => {
